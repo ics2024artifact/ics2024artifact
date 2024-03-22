@@ -43,7 +43,7 @@ cd build
 |23| 3| 7| 8| 8| 32| 16| 16|  16| 16| 16
 |24| 3| 8| 8| 8| 16| 16| 16|  16| 16| 16
 
-Some parameters combination may not work, for example you should make sure $BS_i \times logN_i \leq max\_shared\_memory\_size$
+Some parameters combination may not work, for example you should make sure $BS_i \times logN_i \leq $ max_shared_memory_size
 1. You can config your own kernel parameters by edit the parameter file in `include/param/param_A100_double2.csv`
 2. Run the following command to regenerate the kernel code and compile again
 ```
