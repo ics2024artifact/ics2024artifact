@@ -22,7 +22,7 @@ class TurboFFT:
         self.err_threshold = err_threshold
         self.shared_mem_size=shared_mem_size
         self.thread_bs = 1
-        self.ft = 0
+        self.ft = if_ft
         self.WorkerFFTSizes = WorkerFFTSizes
         self.threadblock_bs = threadblock_bs
         self.threadblock_bs_dim = threadblock_bs_dim
